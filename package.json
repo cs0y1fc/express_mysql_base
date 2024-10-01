@@ -1,0 +1,30 @@
+{
+  "name": "express_mysql_base",
+  "version": "1.0.0",
+  "description": "TODO CRUD PRODUCTOS",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IFCD0112-Grup-Cief-2024/express_mysql_base.git#main"
+  },
+  "keywords": [
+    "webserver",
+    "node",
+    "mysql"
+  ],
+  "author": "Grup CIEF - IFCD0112 - 2024",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IFCD0112-Grup-Cief-2024/express_mysql_base/issues"
+  },
+  "homepage": "https://github.com/IFCD0112-Grup-Cief-2024/express_mysql_base/tree/main#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.0"
+  }
+}
