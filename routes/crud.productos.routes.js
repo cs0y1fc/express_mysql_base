@@ -12,7 +12,7 @@ import connection from '../database/connection.js';
 // - Que llegue con las props adecuadas
 // - Que lleguen los valores de las prop adecuadas
 
-router.get('/products', async (req, res) => {
+router.get('/productos', async (req, res) => {
     try {
       const sql = 'SELECT * FROM products';
       const [result] = await connection.query(sql);
